@@ -1,0 +1,532 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner {
+  position: relative;
+  margin: 0 auto;
+  width: 1240px;
+}
+
+.first-section {
+  width: 100%;
+  height: 750px;
+  margin: 0;
+  background: url("../img/img.png") center center/cover no-repeat;
+}
+
+.first-section__logo {
+  margin: 0;
+  height: 90px;
+  width: 180px;
+  cursor: pointer;
+}
+
+.first-section__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-section__phone-number {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-right: 40px;
+  cursor: pointer;
+  font-family: 'Golos Text', sans-serif;
+}
+
+.first-section__text1 {
+  font-family: 'Golos Text', sans-serif;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  margin-right: 20px;
+  padding-top: 34px;
+}
+
+.first-section__text1:last-child {
+  margin-right: 0px;
+}
+
+.first-section__button1 {
+  cursor: pointer;
+  margin-top: 24px;
+  margin-left: 30px;
+  width: 200px;
+  height: 45px;
+  background: #FFD324;
+  box-shadow: 0px 0px 29px rgba(255, 249, 94, 0.54);
+  border-radius: 30px;
+  border: 0;
+}
+
+.first-section__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first-section__button1TEXT {
+  font-family: 'Golos Text', sans-serif;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #1A202C;
+  font-weight: 700;
+  margin-top: -2px;
+}
+
+.first-section__text2 {
+  font-family: 'Golos Text', sans-serif;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFD324;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3), 0px 0px 29px rgba(255, 249, 94, 0.54);
+  font-size: 96px;
+  font-weight: 800;
+  padding-top: 100px;
+  margin-bottom: 0px;
+}
+
+.first-section__text3 {
+  font-family: 'Golos Text', sans-serif;
+  color: #FFD324;
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.first-section__text4 {
+  font-family: 'Golos Text', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 50000;
+  margin-bottom: 40px;
+}
+
+.first-section__button2 {
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  background: #FFD324;
+  box-shadow: 0px 0px 29px rgba(255, 249, 94, 0.54);
+  border-radius: 30px;
+  border: 0;
+}
+
+.first-section__button2TEXT {
+  font-family: 'Golos Text', sans-serif;
+  margin-right: 10px;
+  font-size: 15px;
+  color: #1A202C;
+  font-weight: 700;
+}
+
+.first-section__flex1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.second-section {
+  width: 100%;
+  height: 750px;
+  margin: 0;
+}
+
+.second-section__flexic {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-section__boxWhite {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(142, 162, 170, 0.2);
+  border-radius: 15px;
+  height: 300px;
+  width: 550px;
+  margin-top: 200px;
+  z-index: 1;
+}
+
+.second-section__2foto {
+  margin-left: -200px;
+  width: 600px;
+  height: 545px;
+  margin-top: 75px;
+}
+
+.second-section__foto1 {
+  height: 290px;
+  width: 350px;
+}
+
+.second-section__foto2 {
+  margin-top: -40px;
+  height: 290px;
+  width: 350px;
+}
+
+.second-section__conteinerfoto {
+  margin-left: -20px;
+  margin-top: 76px;
+  width: 300px;
+  height: 550px;
+}
+
+.second-section__textName {
+  font-family: 'Golos Text', sans-serif;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: #1A202C;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.second-section__textName1 {
+  font-family: 'Golos Text', sans-serif;
+  margin-left: 20px;
+  color: #1A202C;
+  font-weight: 40000;
+  font-size: 16px;
+}
+
+.third-section {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+}
+
+.third-section__text30 {
+  font-family: 'Golos Text', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.third-section__flexconteiner3 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-left: 110px;
+  width: 1020px;
+}
+
+.third-section__button30 {
+  cursor: pointer;
+  border: 1px solid #FFD324;
+  border-radius: 30px;
+  width: 190px;
+  height: 45px;
+  background: #fff;
+  margin-right: 30px;
+}
+
+.third-section__button30:last-child {
+  margin-right: 0;
+}
+
+.third-section__button30:hover {
+  background: #FFD324;
+}
+
+.third-section__text31 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.third-section__flexconteiner31 {
+  display: flex;
+  flex-direction: row;
+}
+
+.third-section__box30 {
+  cursor: pointer;
+  width: 215px;
+  height: 280px;
+  margin: 0px;
+}
+
+.third-section__box30:last-child {
+  margin-right: 0;
+}
+
+.third-section__box30:hover .third-section__button31 {
+  display: block;
+}
+
+.third-section__imgfoto {
+  width: 215px;
+  height: 200px;
+}
+
+.third-section__text32 {
+  font-family: 'Golos Text', sans-serif;
+  margin-top: -10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.third-section__text33 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.third-section__button31 {
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 190px;
+  height: 45px;
+  background: #FFD324;
+  border-radius: 30px;
+  display: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.third-section__text34 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.four-section {
+  height: 750px;
+  width: 100%;
+  margin: 0;
+}
+
+.four-section__foto40 {
+  height: 600px;
+  width: 850px;
+}
+
+.four-section__flexil {
+  position: absolute;
+}
+
+.four-section__boxicx {
+  position: absolute;
+  top: 100px;
+  left: 640px;
+  z-index: 1;
+  height: 400px;
+  width: 650px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(142, 162, 170, 0.2);
+  border-radius: 15px;
+}
+
+.four-section__text40 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.four-section__text41 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.four-section__text42 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.four-section__text43 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.four-section__button40 {
+  margin-top: 25px;
+  margin-left: 10px;
+  width: 310px;
+  height: 40px;
+  background: #FFD324;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+}
+
+.fifth-section {
+  height: 750px;
+  width: 100%;
+  margin: 0;
+}
+
+.fifth-section__conteiner {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.fifth-section__text50 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.fifth-section__box50 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.fifth-section__foto50 {
+  width: 380px;
+  height: 380px;
+}
+
+.fifth-section__text51 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.fifth-section__text52 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.fifth-section__box51 {
+  width: 350px;
+}
+
+.placeholder {
+  color: red;
+}
+
+.six-section {
+  height: 500px;
+  width: 100%;
+}
+
+.six-section__conteiner {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.six-section__text60 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.six-section__one {
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  background: url("../img/Rectangle60.png") center center/cover no-repeat;
+}
+
+.six-section__text61 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.six-section__text62 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 20px;
+  color: #FFD324;
+}
+
+.six-section__forms {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  margin-left: 120px;
+}
+
+.six-section__input {
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+  background-color: transparent;
+  outline: none;
+  transition: 0.3s;
+  margin-right: 60px;
+}
+
+.six-section__button61 {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 200px;
+  height: 40px;
+  background: #FFD324;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+}
+
+.six-section__text63 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.foter {
+  height: 600px;
+  width: 100%;
+  margin: 0;
+}
+
+.foter__conteiner {
+  position: relative;
+  margin: 0 auto;
+  width: 1240px;
+}
+
+.foter__depp {
+  display: flex;
+  flex-direction: row;
+}
+
+.foter__foto70 {
+  width: 700px;
+}
